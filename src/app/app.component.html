@@ -1,0 +1,15 @@
+<ng-container *ngIf="!shoudlShowHeader; else showHeader">
+    <router-outlet></router-outlet>
+</ng-container>
+<ng-template #showHeader>
+    <div class="side-navigation">
+        <app-drawer-navbar></app-drawer-navbar>
+    </div>
+    <div class="main-content">
+        <app-topbar></app-topbar>
+        <div class="content-wrapper">
+            <router-outlet></router-outlet>
+        </div>
+    </div>ī    
+</ng-template>
+

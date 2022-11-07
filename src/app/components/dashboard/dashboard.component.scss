@@ -1,0 +1,63 @@
+@import '../../../mixins';
+@import '../../../variables';
+.card {
+    &--lead {
+        background: $primary url(../../../assets/images/card-bg.png);
+        padding: 20px;
+        padding-bottom: 0;
+        background-size: 110%;
+        background-position: center center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-repeat: no-repeat;
+    }    
+}
+.dash-card-col {
+    margin-bottom: 20px;
+}
+.dash-card {
+    display: flex;
+    align-items: center;
+    &__thumbnail {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include borderRadius();
+        flex-shrink: 0;
+        background:rgb(255 255 255 / 21%);
+        img {
+            width: 60%;
+        }
+    }
+    &__content {
+        flex: 1 0 0;
+        padding-left: 10px;
+        p {
+            font-size: $text-base;
+            font-weight: 500;
+            color: $light;
+            line-height: $text-base;
+            
+        }
+        span {
+            font-size: $text-sm;
+            color: $light;
+            font-weight: 400;
+        }
+    }
+}
+.card-info {
+    &-row {
+        margin: 0 -7.5px;
+    }
+    &-col {
+        padding: 0 7.5px;
+    }
+}
+.card-margin {
+    margin-bottom: 15px;
+}

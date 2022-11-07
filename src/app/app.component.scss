@@ -1,0 +1,23 @@
+@import '../mixins';
+@import '../variables';
+
+.side-navigation {
+    width: 240px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    height: 100vh;
+    overflow-y: auto;
+    background: $primary;
+}
+
+.main-content {
+    width: 100%;
+    padding-left: 240px;
+    padding-right: 0;
+}
+
+.content-wrapper {
+    padding: 15px;
+}
