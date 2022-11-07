@@ -1,0 +1,15 @@
+@import '../../../mixins';
+@import '../../../variables';
+
+.status-info{
+    .status-info-content{
+    border-radius: 5px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    font-size: $text-sm;
+    font-weight: 500;
+    }
+}
