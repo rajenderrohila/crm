@@ -1,45 +1,45 @@
-<ngx-slick-carousel class="carousel school-carousel mb-4" 
-#slickModal="slick-carousel" 
-[config]="slideConfig">
-    <div ngxSlickItem class="slide">
-        <div class="slider-img-wrap">
-            1
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-md-6 slider d-flex flex-column justify-content-center">
+            <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+                <div ngxSlickItem *ngFor="let slide of slides" class="slide d-flex flex-column align-items-center">
+                    <img src="{{ slide.img }}" width="100%">
+                    <h2>{{slide.heading}}</h2>
+                    <p>{{slide.about}}</p>
+                </div>
+	        </ngx-slick-carousel>
+            <div class="footer">
+                <span>PRIVACY POLICY</span>
+                <span>TERMS OF USE</span>
+                <span>CONTACT US</span>
+            </div>
+        </div>
+        
+        <div class="col-md-6 login d-flex justify-content-center">
+            <div class="login-page d-flex flex-column justify-content-center">
+                <h2>iCONIC</h2>
+                <p>CRM</p>
+                <form class="auth-form">
+                    <p>Sign in</p>
+                    <label for="text" class="form-label">Username</label><br>
+                    <input type="text" id="text" class="form-control"><br>
+                    <label for="password"  class="form-label">Password</label><br>
+                    <input type="password" id="password" class="form-control"><br>
+                    <div class="d-flex justify-content-between remember">
+                        <div> 
+                            <input type="checkbox" id="remember">
+                            <label for="remember" class="ml-1">Remember Password</label>
+                        </div>
+                        <div>
+                            <a href="#">Can't access your account?</a><br>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <input type="submit" value="Login"><br>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-    <div ngxSlickItem class="slide">
-        <div class="slider-img-wrap">
-            1
-        </div>
-    </div>
-    <div ngxSlickItem class="slide">
-        <div class="slider-img-wrap">
-            1
-        </div>
-    </div>
-    <div ngxSlickItem class="slide">
-        <div class="slider-img-wrap">
-            1
-        </div>
-    </div>
-    <div ngxSlickItem class="slide">
-        <div class="slider-img-wrap">
-            1
-        </div>
-    </div>
-    <div ngxSlickItem class="slide">
-        <div class="slider-img-wrap">
-            1
-        </div>
-    </div>
-    <div ngxSlickItem class="slide">
-        <div class="slider-img-wrap">
-            1
-        </div>
-    </div>
-    
-    <!-- <div ngxSlickItem *ngFor="let slide of slides" class="slide">
-        <img src="{{ imageUrl + (schoolProgramDetails|async)?.school?.schoolImage1 }}" alt="" width="50%" height="50%">
-    <img src="{{ imageUrl +(schoolProgramDetails|async)?.school?.schoolImage2 }}" alt="" width="50%" height="50%">
-    <img src="{{ imageUrl + (schoolProgramDetails|async)?.school?.schoolImage3 }}" alt="" width="50%" height="50%">
-    </div> -->
-</ngx-slick-carousel>
+</div>
+

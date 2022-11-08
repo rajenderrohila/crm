@@ -1,0 +1,158 @@
+@import '../../../mixins';
+@import '../../../variables';
+
+::ng-deep {
+    .slider{
+        font-family: $font;
+        background:url(../../../assets/images/back.png) $background;
+        min-height: 100vh;
+        position: relative;
+        .login-right-arrow{
+            position: absolute;
+            top: inherit;
+            bottom: -35px;
+            right: 270px;
+            z-index: 9;
+        }
+        .login-left-arrow{
+            position: absolute;
+            top: inherit;
+            bottom: -35px;
+            left: 270px;
+            z-index: 9;
+        }
+        .slide{
+            margin: 50px 30px 0 30px;
+            img{
+                width: 480px;
+                height: 360px;
+            }
+            h2{
+                color: $primary;
+                font-size: $text-4xl;
+                font-weight: $bold;
+                margin-top: 30px;
+                text-align: center;
+            }
+            p{
+                width: 80%;
+                color: $gray;
+                font-size: $text-base;
+                font-weight: $regular;
+                text-align: center;
+                margin-bottom:30px;
+            }
+            
+        }
+        .footer{
+            margin-top: 90px;
+            span{
+                font-size: $text-sm;
+                font-weight: $regular;
+                &:not(:first-child){
+                    margin-left: 10px;
+                    &::before{
+                        content: '';
+                        background-color: $dark;
+                        width: 2px;
+                        height: 10px;
+                        display: inline-block;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+        
+    }
+    
+}
+
+.login{
+    font-family: $font;
+    .login-page{
+        min-height: 100vh;
+        width: 90%;
+        h2{
+            font-size: $text-4xl;
+            font-weight:$bolder;
+            text-align: center;
+            margin-bottom: -10px;
+        }
+        p{
+            font-size: $text-2xl;
+            font-weight:$bold;
+            color: $primary;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .auth-form{
+            max-width: 500px;
+            margin: 0 auto;
+            input[type="text"], input[type="password"]{
+                height: 50px;
+            }
+            p{
+                font-size: $text-xl;
+                font-weight:$bolder;
+                color: $gray;
+                text-align: left;
+                margin-bottom: 30px;
+            }
+            label{
+                font-size:$text-sm;
+                font-weight:$bold;
+            }
+            .remember{
+                font-weight:$regular;
+                font-size: $text-sm;
+                label{
+                    margin-left: 3px;
+                    font-weight: $regular;
+                }
+                
+            }
+            input{
+                border: none;
+            }
+            input[type="submit"]{
+                background: $primary;
+                color: $light;
+                border: none;
+                width: 120px;
+                height: 40px;
+                border-radius: 5px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width:991px){
+    .slider{
+        display: none !important;
+    }
+    .login{
+        width: 100%;
+    }
+}
+
+::ng-deep{
+@media screen{
+    .slider{
+        .login-right-arrow{
+            position: absolute;
+            top: inherit;
+            bottom: -35px;
+            right: 150px;
+            z-index: 9;
+        }
+        .login-left-arrow{
+            position: absolute;
+            top: inherit;
+            bottom: -35px;
+            left: 150px;
+            z-index: 9;
+        }
+    }
+}
+}

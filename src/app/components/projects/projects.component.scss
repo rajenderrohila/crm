@@ -1,0 +1,18 @@
+.page-header{
+    .page-header_toggle{
+        button{
+            background-color: transparent;
+            border:1px solid#000;
+            margin-right: 5px;
+            border-radius: 5px;
+        }
+        input{
+            border: 1px solid#000;
+            border-right:none;
+        }
+        i{
+            border: 1px solid#000;
+            border-left: none;
+        }
+    }
+}

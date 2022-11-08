@@ -19,3 +19,13 @@ body {
         padding: 15px;
     }
 }
+.login-left-arrow{
+    &::before{
+        display: none;
+    }
+}
+.login-right-arrow{
+    &::before{
+        display: none;
+    }
+}

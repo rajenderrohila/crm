@@ -1,7 +1,7 @@
 export const navbar = [
     {
         navItem:'Dashboard',
-        url:'/',
+        url:'/dashboard',
         isVisible:true,
         isIcon:true,
         icon:'dashboard',
