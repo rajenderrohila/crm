@@ -23,19 +23,7 @@
                         font-size: 0.5625rem;
                         }
                 }
-                ul{
-                    li{
-                        img{
-                            width: 26px;
-                            height: 26px;
-                            box-shadow: -4px -4px #fff,-4px 4px #fff;
-                            border-radius: 100%;
-                        }
-                        &:not(:first-child){
-                            margin-left: -5px;
-                        }
-                    }
-                }
+                
                 button{
                     width: 26px;
                     height: 26px;
@@ -54,6 +42,29 @@
                     padding: 0px 5px;
                     border-radius: 5px;
                     height: 22px;
+                }
+            }
+            .table-assign-img{
+                ul{
+                    li{
+                        img{
+                            width: 32px;
+                            height: 30px;
+                            border-right: 2px solid #fff;
+                            border-radius: 50%;
+                        }
+                        &:nth-child(1){
+                            z-index: 5;
+                        }
+                        &:nth-child(2){
+                            z-index: 4;
+                            margin-left: -10px;
+                        }
+                        &:nth-child(3){
+                            z-index: 3;
+                            margin-left: -10px;
+                        }
+                    }
                 }
             }
             .table-action-icons{

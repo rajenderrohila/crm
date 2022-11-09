@@ -19,7 +19,7 @@
                 margin-left: 10px;
                 h2{
                     font-size:$text-base;
-                    margin-bottom: 0;
+                    margin-bottom: 4px;
                     font-weight: $semi-bold;
                 }
                 .project-info_process{
@@ -69,13 +69,21 @@
             ul{
                 li{
                     img{
-                        width: 26px;
-                        height: 26px;
-                        box-shadow: -4px -4px #fff,-4px 4px #fff;
-                        border-radius: 100%;
+                        width: 32px;
+                        height: 30px;
+                        border-right: 2px solid #fff;
+                        border-radius: 50%;
                     }
-                    &:not(:first-child){
-                        margin-left: -5px;
+                    &:nth-child(1){
+                        z-index: 5;
+                    }
+                    &:nth-child(2){
+                        z-index: 4;
+                        margin-left: -10px;
+                    }
+                    &:nth-child(3){
+                        z-index: 3;
+                        margin-left: -10px;
                     }
                 }
             }
@@ -98,8 +106,9 @@
                 color: #fff;
                 font-size: 0.75rem;
                 border: none;
-                padding: 5px 10px;
+                padding: 2px 5px;
                 border-radius: 5px;
+                height: 22px;
             }
         }
     }
