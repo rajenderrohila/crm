@@ -1,0 +1,42 @@
+<div class="project-info">
+    <div class="project-info_head d-flex justify-content-between">
+        <div class="heading d-flex">
+            <div class="project-info_img">
+                <img [src]="img" alt="">
+            </div>
+            <div class="project-info_content">
+                <h2>{{heading}}</h2>
+                <div class="project-info_process d-flex">
+                    <p>{{date}}</p>
+                    <span>{{status}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="project-info_icon">
+            <i class="material-icons"><button>more_horiz</button></i>
+        </div>
+    </div>
+    <div class="project-info_client">
+        <p>Client</p>
+        <span>Startupbuddy Services Pvt. Ltd</span>
+    </div>
+
+    <div class="project-info_footer d-flex justify-content-between">
+        <div class="project-info_member d-flex">
+            <ul class="nav">
+                <li><img [src]="img" alt=""></li>
+                <li><img [src]="img" alt=""></li>
+                <li><img [src]="img" alt=""></li>
+            </ul>
+            <button>+</button>
+        </div>
+        <div class="project-info_status">
+            <span>Status: </span>
+            <select>
+                <option>Started</option>
+                <option>On Hold</option>
+                <option>Rejected</option>
+            </select>
+        </div>
+    </div>
+</div>

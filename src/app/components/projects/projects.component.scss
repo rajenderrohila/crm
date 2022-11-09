@@ -1,18 +1,47 @@
-.page-header{
-    .page-header_toggle{
-        button{
-            background-color: transparent;
-            border:1px solid#000;
-            margin-right: 5px;
-            border-radius: 5px;
-        }
-        input{
-            border: 1px solid#000;
-            border-right:none;
-        }
-        i{
-            border: 1px solid#000;
-            border-left: none;
+.project{
+    background: #f5f1f1;
+    height: 620px;
+    .page-header{
+        .page-header_nav{
+            .page-header_toggle{
+                button{
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #fff;
+                    border: none;
+                    border-radius: 5px;
+                    margin-right: 10px;
+                    i{
+                        font-size: 1.25rem;
+                    }
+                }
+            }
+            .page-header_search{
+                background: #fff;
+                border-radius: 5px ;
+                align-items: center;
+                input{
+                    border: none;
+                }
+                button{
+                    width: 22px;
+                    height: 22px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: rgb(42, 11, 195);
+                    border: none;
+                    border-radius: 5px;
+                    margin-right: 5px;
+                    i{
+                        color: #fff;
+                        font-size: 1.25rem;
+                    }
+                }
+            }
         }
     }
 }

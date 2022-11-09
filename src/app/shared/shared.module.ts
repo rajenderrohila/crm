@@ -6,13 +6,17 @@ import { InfoCardComponent } from './info-card/info-card.component';
 import { RouterModule } from '@angular/router';
 import {MatMenuModule} from '@angular/material/menu';
 import { StatusCardComponent } from './status-card/status-card.component';
+import { ProjectCardComponent } from './project-card/project-card.component';
+import { ProjectTableComponent } from './project-table/project-table.component';
 
 @NgModule({
   declarations: [
     DrawerNavbarComponent,
     TopbarComponent,
     InfoCardComponent,
-    StatusCardComponent
+    StatusCardComponent,
+    ProjectCardComponent,
+    ProjectTableComponent
   ],
   imports: [
     CommonModule,
@@ -24,7 +28,9 @@ import { StatusCardComponent } from './status-card/status-card.component';
     TopbarComponent,
     InfoCardComponent,
     MatMenuModule,
-    StatusCardComponent
+    StatusCardComponent,
+    ProjectCardComponent,
+    ProjectTableComponent
   ]
 })
 export class SharedModule { }

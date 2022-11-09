@@ -12,4 +12,17 @@ export class ProjectsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  cardTable:boolean = true;
+
+  showHide(){
+    this.cardTable = !this.cardTable;
+  }
+
+  projectList:any = [
+    {project:"GPI Dashboard Maintenance", status:"Overdue", client:"DigiSurface Consulting Pvt Ltd", date:"12.31.2022", img1:"../../../assets/images/jogi.png", img2:"../../../assets/images/jogi.png", img3:"../../../assets/images/jogi.png"},
+    {project:"GPI Dashboard Maintenance", status:"Overdue", client:"DigiSurface Consulting Pvt Ltd", date:"12.31.2022", img1:"../../../assets/images/jogi.png", img2:"../../../assets/images/jogi.png", img3:"../../../assets/images/jogi.png"},
+    {project:"GPI Dashboard Maintenance", status:"Overdue", client:"DigiSurface Consulting Pvt Ltd", date:"12.31.2022", img1:"../../../assets/images/jogi.png", img2:"../../../assets/images/jogi.png", img3:"../../../assets/images/jogi.png"},
+    {project:"GPI Dashboard Maintenance", status:"Overdue", client:"DigiSurface Consulting Pvt Ltd", date:"12.31.2022", img1:"../../../assets/images/jogi.png", img2:"../../../assets/images/jogi.png", img3:"../../../assets/images/jogi.png"},
+    {project:"GPI Dashboard Maintenance", status:"Overdue", client:"DigiSurface Consulting Pvt Ltd", date:"12.31.2022", img1:"../../../assets/images/jogi.png", img2:"../../../assets/images/jogi.png", img3:"../../../assets/images/jogi.png"}
+  ]
 }

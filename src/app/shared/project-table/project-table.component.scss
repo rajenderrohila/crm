@@ -1,0 +1,93 @@
+@import '../../../mixins';
+@import '../../../variables';
+
+.project-info{
+    table{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 0.75rem;
+        .table-header{
+            font-weight: $semi-bold;
+        }
+        .table-content{
+            td{
+                margin-top: 5px;
+                span{
+                    color: #0067B8;
+                        span{
+                        margin-left: 10px;
+                        background: #F05050;
+                        border-radius: 5px;
+                        padding: 0 10px;
+                        color: #fff;
+                        font-size: 0.5625rem;
+                        }
+                }
+                ul{
+                    li{
+                        img{
+                            width: 26px;
+                            height: 26px;
+                            box-shadow: -4px -4px #fff,-4px 4px #fff;
+                            border-radius: 100%;
+                        }
+                        &:not(:first-child){
+                            margin-left: -5px;
+                        }
+                    }
+                }
+                button{
+                    width: 26px;
+                    height: 26px;
+                    border: none;
+                    border-radius: 100%;
+                    background: #4FA7A5;
+                    color: #fff;
+                    margin-left: 10px;
+                    font-size: 1rem;
+                }
+                select{
+                    background: #E9821C;
+                    color: #fff;
+                    font-size: 0.75rem;
+                    border: none;
+                    padding: 0px 5px;
+                    border-radius: 5px;
+                    height: 22px;
+                }
+            }
+            .table-action-icons{
+                ul{
+                    li{
+                        button{
+                            width:22px;
+                            height: 22px;
+                            border-radius: 3px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            i{
+                                font-size: 15px;
+                            }
+                        }
+                        .action1{
+                            background: #00C0EF;
+                        }
+                        .action2{
+                            background: #FABB05;
+                        }
+                        .action3{
+                            background: #7266BA;
+                        }
+                        .action4{
+                            background: #F05050;
+                            i{
+                                margin-left: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

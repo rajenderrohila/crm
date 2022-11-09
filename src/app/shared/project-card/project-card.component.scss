@@ -1,0 +1,107 @@
+@import '../../../mixins';
+@import '../../../variables';
+
+.project-info{
+    font-family:$font;
+    background: $light;
+    padding: 10px;
+    border-radius: 8px;
+    .project-info_head{
+        .heading{
+            .project-info_img{
+                img{
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 100%;
+                }
+            }
+            .project-info_content{
+                margin-left: 10px;
+                h2{
+                    font-size:$text-base;
+                    margin-bottom: 0;
+                    font-weight: $semi-bold;
+                }
+                .project-info_process{
+                    p{
+                        font-size: $text-2xs;
+                        color: #A5A5A5;
+                    }
+                    span{
+                        font-size: $text-2xs;
+                        margin-left: 15px;
+                        background: #F05050;
+                        color: #fff;
+                        height: 15px;
+                        padding: 0 10px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+        .project-info_icon{
+            button{
+                border: none;
+                background: transparent;
+                padding: 0px;
+                font-size: 1.5rem;
+                color: #A5A5A5;
+            }
+        }
+    }
+    .project-info_client{
+        font-size: 0.75rem;
+        font-weight: $semi-bold;
+        p{
+            color: #0067B8;
+            margin-bottom: 0;
+        }
+        span{
+            color: #414141;
+        }
+    }
+
+    .project-info_footer{
+        border-top: 1px solid rgb(231, 225, 225);
+        margin-top: 5px;
+        padding-top: 10px;
+        .project-info_member{
+            ul{
+                li{
+                    img{
+                        width: 26px;
+                        height: 26px;
+                        box-shadow: -4px -4px #fff,-4px 4px #fff;
+                        border-radius: 100%;
+                    }
+                    &:not(:first-child){
+                        margin-left: -5px;
+                    }
+                }
+            }
+            button{
+                width: 26px;
+                height: 26px;
+                border-radius: 100%;
+                background: #4FA7A5;
+                color: #fff;
+                border: none;
+                margin-left: 10px;
+            }
+        }
+        .project-info_status{
+            span{
+                font-size: 0.75rem;
+            }
+            select{
+                background: #E9821C;
+                color: #fff;
+                font-size: 0.75rem;
+                border: none;
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+        }
+    }
+    
+}

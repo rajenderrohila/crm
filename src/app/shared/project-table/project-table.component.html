@@ -1,0 +1,40 @@
+<div class="project-info">
+    <table>
+        <tr class="table-header">
+            <th>PROJECT NAME</th>
+            <th>CLIENT</th>
+            <th>END DATE</th>
+            <th>ASSIGNED TO</th>
+            <th>STATUS</th>
+            <th class="text-end">ACTION</th>
+        </tr>
+        <tr *ngFor="let item of data" class="table-content">
+            <td><span>{{item.project}}<span>{{item.status}}</span></span></td>
+            <td>{{item.client}}</td>
+            <td>{{item.date}}</td>
+            <td class="d-flex">
+                <ul class="nav">
+                    <li><img [src]="item.img1" alt=""></li>
+                    <li><img [src]="item.img2" alt=""></li>
+                    <li><img [src]="item.img3" alt=""></li>
+                </ul>
+                <button>+</button>
+            </td>
+            <td>
+                <select>
+                    <option>Started</option>
+                    <option>On Hold</option>
+                    <option>Rejected</option>
+                </select>
+            </td>
+            <td class="d-flex justify-content-end table-action-icons">
+                <ul class="nav">
+                    <li><button class="action1"><i class="material-icons">remove_red_eye</i></button></li>
+                    <li><button class="action2"><i class="material-icons">content_copy</i></button></li>
+                    <li><button class="action3"><i class="material-icons">edit</i></button></li>
+                    <li><button class="action4"><i class="material-icons">deletez</i></button></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
