@@ -1,9 +1,9 @@
 <div class="recent-paid">
     <h2>Recently Paid Invoices</h2>
     <hr>
-    <div class="d-flex justify-content-between align-items-center recent-paid-list" *ngFor="let item of [1,2,3,4,5,6,7,8,9]">
-        <h4>NTPL0173</h4>
-        <span>705.60/-</span>
+    <div class="d-flex justify-content-between align-items-center recent-paid-list" *ngFor="let item of list">
+        <h4>{{item.BillNo}}</h4>
+        <span>{{item.amount}}/-</span>
     </div>
     <div class="total-paid d-flex justify-content-end align-items-center">
         <div>Total Receipts: <span>2620.80 /-</span></div>

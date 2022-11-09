@@ -12,4 +12,12 @@ export class ToDoListComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  list:any = [
+    {work:"What to do text here", status:"Completed", date:"Wednesday, 2 Days Left"},
+    {work:"What to do", status:"In Progress", date:"Monday, 4 Days Left"},
+    {work:"What to do text here", status:"Completed", date:"Wednesday, 2 Days Left"},
+    {work:"What to do", status:"In Progress", date:"Monday, 4 Days Left"},
+    {work:"What to do text here", status:"Completed", date:"Wednesday, 2 Days Left"},
+    {work:"What to do", status:"In Progress", date:"Monday, 4 Days Left"}
+  ]
 }
