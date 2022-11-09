@@ -1,0 +1,50 @@
+.border-radius50 {
+  border-radius: 50%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-primary {
+  margin-bottom: 16px;
+}
+.radio-primary p {
+  color: #5f6368;
+  margin-bottom: 12px;
+  font-size: var(--f-xxs);
+  line-height: 1.5;
+}
+.radio-primary .mat-radio-button .mat-radio-label {
+  margin-bottom: 0;
+  margin-right: 26px;
+}
+.radio-primary .mat-radio-button .mat-radio-label .mat-radio-label-content {
+  font-weight: 500;
+  color: black;
+}
+.radio-primary .mat-radio-button:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.side-navigation {
+  width: 240px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  height: 100vh;
+  overflow-y: auto;
+  background: #0067B8;
+}
+
+.main-content {
+  width: 100%;
+  padding-left: 240px;
+  padding-right: 0;
+}
+
+.content-wrapper {
+  padding: 15px;
+}/*# sourceMappingURL=app.component.css.map */

@@ -1,0 +1,73 @@
+.border-radius50 {
+  border-radius: 50%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-primary {
+  margin-bottom: 16px;
+}
+.radio-primary p {
+  color: #5f6368;
+  margin-bottom: 12px;
+  font-size: var(--f-xxs);
+  line-height: 1.5;
+}
+.radio-primary .mat-radio-button .mat-radio-label {
+  margin-bottom: 0;
+  margin-right: 26px;
+}
+.radio-primary .mat-radio-button .mat-radio-label .mat-radio-label-content {
+  font-weight: 500;
+  color: black;
+}
+.radio-primary .mat-radio-button:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.drawer-nav {
+  padding: 5px;
+}
+.drawer-nav .navbar-brand {
+  margin-top: 45px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.nav-items {
+  padding: 0;
+  margin: 0;
+}
+.nav-items .nav-item {
+  padding: 10px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  font-size: 0.875rem;
+}
+.nav-items .nav-item:hover {
+  transition: all 0.2s ease-in-out;
+  background: #E4F3FF;
+  cursor: pointer;
+  color: #1a1a1a;
+}
+.nav-items .nav-item__img {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.nav-items .nav-item:not(:last-child) {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=drawer-navbar.component.css.map */

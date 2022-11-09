@@ -1,0 +1,47 @@
+@import '../../../../mixins';
+@import '../../../../variables';
+
+.recent-activity{
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    height: 550px;
+    overflow: auto;
+    h2{
+        font-size: 1rem;
+        font-weight: $semi-bold;
+        color: #414141;
+    }
+    .activity{
+        .activity-img{
+            img{
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+    .activity-content{
+        margin-left: 10px;
+        width: 100%;
+        h4{
+            font-size: 0.75rem;
+            margin-bottom: 2px;
+        }
+        p{
+            font-size: 0.625rem;
+            color: #9F9F9F;
+        }
+        span{
+            font-size: 0.625rem;
+            color: $primary;
+            margin-left: 5px;
+            font-weight: $semi-bold;
+        }
+    }
+    .activity-time{
+        span{
+            color: #9F9F9F;
+        }
+    }
+}

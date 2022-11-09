@@ -1,0 +1,123 @@
+.border-radius50 {
+  border-radius: 50%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-primary {
+  margin-bottom: 16px;
+}
+.radio-primary p {
+  color: #5f6368;
+  margin-bottom: 12px;
+  font-size: var(--f-xxs);
+  line-height: 1.5;
+}
+.radio-primary .mat-radio-button .mat-radio-label {
+  margin-bottom: 0;
+  margin-right: 26px;
+}
+.radio-primary .mat-radio-button .mat-radio-label .mat-radio-label-content {
+  font-weight: 500;
+  color: black;
+}
+.radio-primary .mat-radio-button:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.project-info {
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+}
+.project-info .project-info_head .heading .project-info_img img {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+.project-info .project-info_head .heading .project-info_content {
+  margin-left: 10px;
+}
+.project-info .project-info_head .heading .project-info_content h2 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.project-info .project-info_head .heading .project-info_content .project-info_process p {
+  font-size: 0.625rem;
+  color: #A5A5A5;
+}
+.project-info .project-info_head .heading .project-info_content .project-info_process span {
+  font-size: 0.625rem;
+  margin-left: 15px;
+  background: #F05050;
+  color: #fff;
+  height: 15px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+.project-info .project-info_head .project-info_icon button {
+  border: none;
+  background: transparent;
+  padding: 0px;
+  font-size: 1.5rem;
+  color: #A5A5A5;
+}
+.project-info .project-info_client {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.project-info .project-info_client p {
+  color: #0067B8;
+  margin-bottom: 0;
+}
+.project-info .project-info_client span {
+  color: #414141;
+}
+.project-info .project-info_footer {
+  border-top: 1px solid rgb(231, 225, 225);
+  margin-top: 5px;
+  padding-top: 10px;
+}
+.project-info .project-info_footer .project-info_member ul li img {
+  width: 32px;
+  height: 30px;
+  border-right: 2px solid #fff;
+  border-radius: 50%;
+}
+.project-info .project-info_footer .project-info_member ul li:nth-child(1) {
+  z-index: 5;
+}
+.project-info .project-info_footer .project-info_member ul li:nth-child(2) {
+  z-index: 4;
+  margin-left: -10px;
+}
+.project-info .project-info_footer .project-info_member ul li:nth-child(3) {
+  z-index: 3;
+  margin-left: -10px;
+}
+.project-info .project-info_footer .project-info_member button {
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  background: #4FA7A5;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+}
+.project-info .project-info_footer .project-info_status span {
+  font-size: 0.75rem;
+}
+.project-info .project-info_footer .project-info_status select {
+  background: #E9821C;
+  color: #fff;
+  font-size: 0.75rem;
+  border: none;
+  padding: 2px 5px;
+  border-radius: 5px;
+  height: 22px;
+}/*# sourceMappingURL=project-card.component.css.map */

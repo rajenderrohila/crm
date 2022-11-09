@@ -1,0 +1,55 @@
+.border-radius50 {
+  border-radius: 50%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-primary {
+  margin-bottom: 16px;
+}
+.radio-primary p {
+  color: #5f6368;
+  margin-bottom: 12px;
+  font-size: var(--f-xxs);
+  line-height: 1.5;
+}
+.radio-primary .mat-radio-button .mat-radio-label {
+  margin-bottom: 0;
+  margin-right: 26px;
+}
+.radio-primary .mat-radio-button .mat-radio-label .mat-radio-label-content {
+  font-weight: 500;
+  color: black;
+}
+.radio-primary .mat-radio-button:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.income-expense {
+  border-radius: 5px;
+  padding: 20px;
+}
+.income-expense h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #414141;
+  margin-bottom: -5px;
+}
+.income-expense p {
+  font-size: 0.75rem;
+  color: #414141;
+}
+.income-expense input {
+  color: #414141;
+  font-size: 0.75rem;
+}
+.income-expense button {
+  font-size: 0.75rem;
+  color: #fff;
+  background: #0067B8;
+  border: none;
+  border-radius: 3px;
+}/*# sourceMappingURL=income-expense.component.css.map */

@@ -1,0 +1,174 @@
+.border-radius50 {
+  border-radius: 50%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-primary {
+  margin-bottom: 16px;
+}
+.radio-primary p {
+  color: #5f6368;
+  margin-bottom: 12px;
+  font-size: var(--f-xxs);
+  line-height: 1.5;
+}
+.radio-primary .mat-radio-button .mat-radio-label {
+  margin-bottom: 0;
+  margin-right: 26px;
+}
+.radio-primary .mat-radio-button .mat-radio-label .mat-radio-label-content {
+  font-weight: 500;
+  color: black;
+}
+.radio-primary .mat-radio-button:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+::ng-deep .slider {
+  font-family: "Poppins", sans-serif;
+  background: url(../../../assets/images/back.png) #e7eff7;
+  min-height: 100vh;
+  position: relative;
+}
+::ng-deep .slider .login-right-arrow {
+  position: absolute;
+  top: inherit;
+  bottom: -35px;
+  right: 270px;
+  z-index: 9;
+}
+::ng-deep .slider .login-left-arrow {
+  position: absolute;
+  top: inherit;
+  bottom: -35px;
+  left: 270px;
+  z-index: 9;
+}
+::ng-deep .slider .slide {
+  margin: 50px 30px 0 30px;
+}
+::ng-deep .slider .slide img {
+  width: 480px;
+  height: 360px;
+}
+::ng-deep .slider .slide h2 {
+  color: #0067B8;
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-top: 30px;
+  text-align: center;
+}
+::ng-deep .slider .slide p {
+  width: 80%;
+  color: #414141;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+::ng-deep .slider .footer {
+  margin-top: 90px;
+}
+::ng-deep .slider .footer span {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+::ng-deep .slider .footer span:not(:first-child) {
+  margin-left: 10px;
+}
+::ng-deep .slider .footer span:not(:first-child)::before {
+  content: "";
+  background-color: #1a1a1a;
+  width: 2px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.login {
+  font-family: "Poppins", sans-serif;
+}
+.login .login-page {
+  min-height: 100vh;
+  width: 90%;
+}
+.login .login-page h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: -10px;
+}
+.login .login-page p {
+  font-size: 1.625rem;
+  font-weight: 600;
+  color: #0067B8;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.login .login-page .auth-form {
+  margin: 0 auto;
+}
+.login .login-page .auth-form input[type=text], .login .login-page .auth-form input[type=password] {
+  width: 450px;
+  height: 50px;
+}
+.login .login-page .auth-form p {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #414141;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.login .login-page .auth-form label {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.login .login-page .auth-form .remember {
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+.login .login-page .auth-form .remember label {
+  margin-left: 3px;
+  font-weight: 400;
+}
+.login .login-page .auth-form input {
+  border: none;
+}
+.login .login-page .auth-form input[type=submit] {
+  background: #0067B8;
+  color: #ffffff;
+  border: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .slider {
+    display: none !important;
+  }
+  .login {
+    width: 100%;
+  }
+}
+@media screen {
+  ::ng-deep .slider .login-right-arrow {
+    position: absolute;
+    top: inherit;
+    bottom: -35px;
+    right: 150px;
+    z-index: 9;
+  }
+  ::ng-deep .slider .login-left-arrow {
+    position: absolute;
+    top: inherit;
+    bottom: -35px;
+    left: 150px;
+    z-index: 9;
+  }
+}/*# sourceMappingURL=login.component.css.map */

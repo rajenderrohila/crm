@@ -25,6 +25,12 @@ import { StocksComponent } from './components/stocks/stocks.component';
 import { AttendanceComponent } from './components/attendance/attendance.component';
 import { LoginComponent } from './components/login/login.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { CalendarComponent } from './components/dashboard/calendar/calendar.component';
+import { ToDoListComponent } from './components/dashboard/to-do-list/to-do-list.component';
+import { RecentActivityComponent } from './components/dashboard/recent-activity/recent-activity.component';
+import { PaidInvoiceComponent } from './components/dashboard/paid-invoice/paid-invoice.component';
+import { IncomeExpenseComponent } from './components/dashboard/income-expense/income-expense.component';
+import { MyProjectComponent } from './components/dashboard/my-project/my-project.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,7 +51,13 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     DepartmentsComponent,
     StocksComponent,
     AttendanceComponent,
-    LoginComponent
+    LoginComponent,
+    CalendarComponent,
+    ToDoListComponent,
+    RecentActivityComponent,
+    PaidInvoiceComponent,
+    IncomeExpenseComponent,
+    MyProjectComponent
   ],
   imports: [
     BrowserModule,

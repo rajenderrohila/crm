@@ -1,0 +1,76 @@
+@import '../../../../mixins';
+@import '../../../../variables';
+
+.to-do-list{
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    height: 550px;
+    overflow: auto;
+    .header{
+        margin-bottom: -10px;
+        h2{
+            font-size: 1rem;
+            font-weight: $semi-bold;
+            color: #414141;
+            margin-bottom: -5px;
+        }
+        button{
+            border: none;
+            background: transparent;
+            font-size: 0.625rem;
+            padding: 3px 10px;
+            color: #0067B8;
+            font-weight: $semi-bold;
+            &:last-child{
+                background: #0067B8;
+                color: #fff;
+                border-radius: 5px;
+            }
+        }
+    }
+    .to-do-list_table{
+        table{
+            width: 100%;
+            .table-header{
+                font-size: 0.75rem;
+                color: #414141;
+                height: 30px;
+                font-weight: $semi-bold;
+                background: #fff;
+                border-bottom: 3px solid #fafafa;
+            }
+            .table-content{
+                font-size: 0.625rem;
+                background: #fff;
+                height: 45px;
+                border-bottom: 3px solid #fafafa;
+                input{
+                    width:20px;
+                    height: 20px;
+                    border: 1px solid #E4E4E4;
+                }
+                span{
+                    font-size: 0.5rem;
+                    background: #FABB05;
+                    color: #414141;
+                    margin-right: 5px;
+                    border-radius: 3px;
+                    padding: 2px 5px;
+                }
+                select{
+                    font-size: 0.5rem;
+                    background: #34A853;
+                    color: #fff;
+                    border-radius: 3px;
+                }
+                button{
+                    border: none;
+                    background: transparent;
+                }
+
+            }
+        }
+    }
+}

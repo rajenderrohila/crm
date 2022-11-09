@@ -1,0 +1,58 @@
+@import '../../../../mixins';
+@import '../../../../variables';
+.calendar{
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    height: 550px;
+    h2{
+        font-size: 1rem;
+        font-weight: $semi-bold;
+        color: #414141;
+        margin-bottom: -5px;
+    }
+    .calendar-header{
+        .calendar-nav{
+            button{
+                border: none;
+                margin-left:10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:not(:last-child){
+                    width: 26px;
+                    height: 26px;
+                    background: #E4F3FF;
+                    border-radius: 5px;
+                }
+                &:last-child{
+                    width: 64px;
+                    height: 26px;
+                    background: #0067B8;
+                    border-radius: 5px;
+                    color: #fff;
+                    font-size: 0.75rem;
+                }
+            }
+        }
+        .calendar-btn-grp{
+            margin-bottom: 15px;
+            button{
+                background: #0067B8;
+                font-size: 0.75rem;
+                height: 26px;
+                display: flex;
+                align-items: center;
+                &:last-child{
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+    .calendar-img{
+        img{
+        width: 100%;
+        }
+    }
+}

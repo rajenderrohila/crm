@@ -1,0 +1,96 @@
+.border-radius50 {
+  border-radius: 50%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-primary {
+  margin-bottom: 16px;
+}
+.radio-primary p {
+  color: #5f6368;
+  margin-bottom: 12px;
+  font-size: var(--f-xxs);
+  line-height: 1.5;
+}
+.radio-primary .mat-radio-button .mat-radio-label {
+  margin-bottom: 0;
+  margin-right: 26px;
+}
+.radio-primary .mat-radio-button .mat-radio-label .mat-radio-label-content {
+  font-weight: 500;
+  color: black;
+}
+.radio-primary .mat-radio-button:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.to-do-list {
+  border-radius: 5px;
+  padding: 20px;
+}
+.to-do-list .header {
+  margin-bottom: -10px;
+}
+.to-do-list .header h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #414141;
+  margin-bottom: -5px;
+}
+.to-do-list .header button {
+  border: none;
+  background: transparent;
+  font-size: 0.625rem;
+  padding: 3px 10px;
+  color: #0067B8;
+  font-weight: 500;
+}
+.to-do-list .header button:last-child {
+  background: #0067B8;
+  color: #fff;
+  border-radius: 5px;
+}
+.to-do-list .to-do-list_table table {
+  width: 100%;
+}
+.to-do-list .to-do-list_table table .table-header {
+  font-size: 0.75rem;
+  color: #414141;
+  height: 30px;
+  font-weight: 500;
+  background: #fff;
+  border-bottom: 3px solid #fafafa;
+}
+.to-do-list .to-do-list_table table .table-content {
+  font-size: 0.625rem;
+  background: #fff;
+  height: 45px;
+  border-bottom: 3px solid #fafafa;
+}
+.to-do-list .to-do-list_table table .table-content input {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #E4E4E4;
+}
+.to-do-list .to-do-list_table table .table-content span {
+  font-size: 0.5rem;
+  background: #FABB05;
+  color: #414141;
+  margin-right: 5px;
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+.to-do-list .to-do-list_table table .table-content select {
+  font-size: 0.5rem;
+  background: #34A853;
+  color: #fff;
+  border-radius: 3px;
+}
+.to-do-list .to-do-list_table table .table-content button {
+  border: none;
+  background: transparent;
+}/*# sourceMappingURL=to-do-list.component.css.map */

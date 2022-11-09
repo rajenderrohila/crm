@@ -1,0 +1,42 @@
+@import '../../../../mixins';
+@import '../../../../variables';
+
+.recent-paid{
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    height: 550px;
+    overflow: auto;
+    h2{
+        font-size: 1rem;
+        font-weight: $semi-bold;
+        color: #414141;
+    }
+    h4, span{
+        font-size: 0.875rem;
+        font-weight: $semi-bold;
+    }
+    span{
+        color: $primary;
+    }
+    .recent-paid-list{
+        height: 40px;
+        border-bottom: 2px solid #fafafa;
+        background: #ffff;
+        padding-right:10px;
+    }
+    .total-paid{
+        background: $primary;
+        border-radius: 0 0 5px 5px;
+        font-size: 0.875rem;
+        color: #fff;
+        height: 44px;
+        padding-right:10px;
+        span{
+            color: #fff;
+            margin-left: 15px;
+        }
+    }
+    
+}

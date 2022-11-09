@@ -1,0 +1,40 @@
+.project {
+  height: 620px;
+}
+.project .page-header .page-header_nav .page-header_toggle button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.project .page-header .page-header_nav .page-header_toggle button i {
+  font-size: 1.25rem;
+}
+.project .page-header .page-header_nav .page-header_search {
+  background: #fff;
+  border-radius: 5px;
+  align-items: center;
+}
+.project .page-header .page-header_nav .page-header_search input {
+  border: none;
+}
+.project .page-header .page-header_nav .page-header_search button {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(42, 11, 195);
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.project .page-header .page-header_nav .page-header_search button i {
+  color: #fff;
+  font-size: 1.25rem;
+}/*# sourceMappingURL=projects.component.css.map */

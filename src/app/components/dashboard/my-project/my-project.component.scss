@@ -1,0 +1,45 @@
+@import '../../../../mixins';
+@import '../../../../variables';
+
+.income-expense{
+    background: #fff;
+    margin-top:20px ;
+    border-radius: 5px;
+    padding: 20px;
+    height: 550px;
+    overflow: auto;
+    h2{
+        font-size: 1rem;
+        font-weight: $semi-bold;
+        color: #414141;
+        margin-bottom: -5px;
+    }
+    table{
+        width: 100%;
+        tr{
+            height: 40px;
+            background: #fff;
+            border-bottom: 3px solid #fafafa;
+            th{
+                font-size: 0.875rem;
+                font-weight: $semi-bold;
+                color: #414141;
+            }
+            td{
+                font-size: 0.75rem;
+                font-weight: $semi-bold;
+                span{
+                    color: #9f9f9f;
+                    span{
+                        background: #F05050;
+                        color: #fff;
+                        border-radius: 3px;
+                        font-size: 0.5rem;
+                        padding: 0 5px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

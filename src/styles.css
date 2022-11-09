@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+.border-radius50 {
+  border-radius: 50%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-primary {
+  margin-bottom: 16px;
+}
+.radio-primary p {
+  color: #5f6368;
+  margin-bottom: 12px;
+  font-size: var(--f-xxs);
+  line-height: 1.5;
+}
+.radio-primary .mat-radio-button .mat-radio-label {
+  margin-bottom: 0;
+  margin-right: 26px;
+}
+.radio-primary .mat-radio-button .mat-radio-label .mat-radio-label-content {
+  font-weight: 500;
+  color: black;
+}
+.radio-primary .mat-radio-button:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #fafafa;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.card--common {
+  background: #ffffff;
+  border: none;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+}
+.card--padding {
+  padding: 15px;
+}
+
+.login-left-arrow::before {
+  display: none;
+}
+
+.login-right-arrow::before {
+  display: none;
+}/*# sourceMappingURL=styles.css.map */

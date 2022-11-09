@@ -1,0 +1,114 @@
+.border-radius50 {
+  border-radius: 50%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-primary {
+  margin-bottom: 16px;
+}
+.radio-primary p {
+  color: #5f6368;
+  margin-bottom: 12px;
+  font-size: var(--f-xxs);
+  line-height: 1.5;
+}
+.radio-primary .mat-radio-button .mat-radio-label {
+  margin-bottom: 0;
+  margin-right: 26px;
+}
+.radio-primary .mat-radio-button .mat-radio-label .mat-radio-label-content {
+  font-weight: 500;
+  color: black;
+}
+.radio-primary .mat-radio-button:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.project-info table {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 0.75rem;
+}
+.project-info table .table-header {
+  font-weight: 500;
+}
+.project-info table .table-content td {
+  margin-top: 5px;
+}
+.project-info table .table-content td span {
+  color: #0067B8;
+}
+.project-info table .table-content td span span {
+  margin-left: 10px;
+  background: #F05050;
+  border-radius: 5px;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 0.5625rem;
+}
+.project-info table .table-content td button {
+  width: 26px;
+  height: 26px;
+  border: none;
+  border-radius: 100%;
+  background: #4FA7A5;
+  color: #fff;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+.project-info table .table-content td select {
+  background: #E9821C;
+  color: #fff;
+  font-size: 0.75rem;
+  border: none;
+  padding: 0px 5px;
+  border-radius: 5px;
+  height: 22px;
+}
+.project-info table .table-content .table-assign-img ul li img {
+  width: 32px;
+  height: 30px;
+  border-right: 2px solid #fff;
+  border-radius: 50%;
+}
+.project-info table .table-content .table-assign-img ul li:nth-child(1) {
+  z-index: 5;
+}
+.project-info table .table-content .table-assign-img ul li:nth-child(2) {
+  z-index: 4;
+  margin-left: -10px;
+}
+.project-info table .table-content .table-assign-img ul li:nth-child(3) {
+  z-index: 3;
+  margin-left: -10px;
+}
+.project-info table .table-content .table-action-icons ul li button {
+  width: 22px;
+  height: 22px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-info table .table-content .table-action-icons ul li button i {
+  font-size: 15px;
+}
+.project-info table .table-content .table-action-icons ul li .action1 {
+  background: #00C0EF;
+}
+.project-info table .table-content .table-action-icons ul li .action2 {
+  background: #FABB05;
+}
+.project-info table .table-content .table-action-icons ul li .action3 {
+  background: #7266BA;
+}
+.project-info table .table-content .table-action-icons ul li .action4 {
+  background: #F05050;
+}
+.project-info table .table-content .table-action-icons ul li .action4 i {
+  margin-left: 15px;
+}/*# sourceMappingURL=project-table.component.css.map */
