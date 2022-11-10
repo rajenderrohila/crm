@@ -31,6 +31,10 @@ import { RecentActivityComponent } from './components/dashboard/recent-activity/
 import { PaidInvoiceComponent } from './components/dashboard/paid-invoice/paid-invoice.component';
 import { IncomeExpenseComponent } from './components/dashboard/income-expense/income-expense.component';
 import { MyProjectComponent } from './components/dashboard/my-project/my-project.component';
+import { ExpenseComponent } from './components/dashboard/expense/expense.component';
+import { IncomeComponent } from './components/dashboard/income/income.component';
+import { FinanceComponent } from './components/dashboard/finance/finance.component';
+import { PaymentComponent } from './components/dashboard/payment/payment.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -57,7 +61,11 @@ import { MyProjectComponent } from './components/dashboard/my-project/my-project
     RecentActivityComponent,
     PaidInvoiceComponent,
     IncomeExpenseComponent,
-    MyProjectComponent
+    MyProjectComponent,
+    ExpenseComponent,
+    IncomeComponent,
+    FinanceComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,
