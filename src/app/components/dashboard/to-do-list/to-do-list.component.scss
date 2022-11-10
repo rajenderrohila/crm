@@ -2,20 +2,10 @@
 @import '../../../../variables';
 
 .to-do-list{
-    background: #fff;
     border-radius: 5px;
-    padding: 20px;
-    margin-top: 20px;
     height: 550px;
     overflow: auto;
     .header{
-        margin-bottom: -10px;
-        h2{
-            font-size: 1rem;
-            font-weight: $semi-bold;
-            color: #414141;
-            margin-bottom: -5px;
-        }
         button{
             border: none;
             background: transparent;
@@ -31,6 +21,7 @@
         }
     }
     .to-do-list_table{
+        // padding: 0 15px;
         table{
             width: 100%;
             .table-header{

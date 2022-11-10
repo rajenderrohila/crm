@@ -8,7 +8,15 @@ body {
     font-family: $font;
     font-size: 16px; 
 }
-
+button, a, button:focus, a:focus{
+    outline:none;
+}
+.card-col {
+    margin-bottom: 30px;
+    @include breakpoint(tablet) {
+        margin-bottom: 15px;
+    }
+}
 .card {
     &--common {
         background: $light;
@@ -27,5 +35,53 @@ body {
 .login-right-arrow{
     &::before{
         display: none;
+    }
+}
+
+.card-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    // margin: 0 -15px;
+    margin-bottom: 20px;
+    min-height: 50px;
+    h2{
+        font-size: 1rem;
+        font-weight: $semi-bold;
+        color: #414141;
+        margin-bottom: -5px;
+    }
+}
+.card-content{
+    padding: 0 15px;
+}
+
+.search{
+    border: 1px solid #cecece;
+    align-items: center;
+    border-radius: 5px;
+    height: 30px;
+    overflow: hidden;
+    input{
+        border: none;
+        height: 30px;
+        outline: none;
+        padding-left: 10px;
+    }
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: $primary;
+        width: 22px;
+        height: 22px;
+        color: white;
+        margin-right: 3px;
+        border-radius: 5px;
+        i{
+            font-size: 1rem;
+        }
     }
 }

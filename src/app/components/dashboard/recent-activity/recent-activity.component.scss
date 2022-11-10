@@ -2,17 +2,9 @@
 @import '../../../../variables';
 
 .recent-activity{
-    background: #fff;
-    margin-top: 20px;
     border-radius: 5px;
-    padding: 20px;
     height: 550px;
     overflow: auto;
-    h2{
-        font-size: 1rem;
-        font-weight: $semi-bold;
-        color: #414141;
-    }
     .activity{
         .activity-img{
             img{
@@ -23,7 +15,9 @@
     }
     .activity-content{
         margin-left: 10px;
+        border-bottom: 1px solid #eee;
         width: 100%;
+        margin-bottom: 10px;
         h4{
             font-size: 0.75rem;
             margin-bottom: 2px;
@@ -31,6 +25,7 @@
         p{
             font-size: 0.625rem;
             color: #9F9F9F;
+            margin-bottom: 10px;
         }
         span{
             font-size: 0.625rem;

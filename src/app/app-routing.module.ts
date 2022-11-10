@@ -22,6 +22,7 @@ import { TransactionsComponent } from './components/transactions/transactions.co
 const routes: Routes = [
   {path:'login', component:LoginComponent},
   {path:'dashboard', component:DashboardComponent},
+  {path:'', component:DashboardComponent},
   {path:'calender', component:CalenderComponent},
   {path:'mailbox', component:MailboxComponent},
   {path:'file-manager', component:FileManagerComponent},

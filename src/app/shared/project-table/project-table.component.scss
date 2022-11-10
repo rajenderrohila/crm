@@ -8,9 +8,16 @@
         font-size: 0.75rem;
         .table-header{
             font-weight: $semi-bold;
+            th{
+                padding: 0 10px;
+                padding-bottom: 5px;
+            }
         }
         .table-content{
+            background: #fff;
+            border-bottom: 2px solid #eee;
             td{
+                padding: 0 10px;
                 margin-top: 5px;
                 span{
                     color: #0067B8;

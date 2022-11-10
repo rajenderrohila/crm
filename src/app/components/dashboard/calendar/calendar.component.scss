@@ -1,17 +1,8 @@
 @import '../../../../mixins';
 @import '../../../../variables';
 .calendar{
-    background: #fff;
     border-radius: 5px;
-    padding: 20px;
-    margin-top: 20px;
     height: 550px;
-    h2{
-        font-size: 1rem;
-        font-weight: $semi-bold;
-        color: #414141;
-        margin-bottom: -5px;
-    }
     .calendar-header{
         .calendar-nav{
             button{
