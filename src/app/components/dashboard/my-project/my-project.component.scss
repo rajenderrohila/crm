@@ -9,23 +9,23 @@
         width: 100%;
         tr{
             height: 40px;
-            background: #fff;
-            border-bottom: 3px solid #fafafa;
+            background: $light;
+            border-bottom: 3px solid $border;
             th{
-                font-size: 0.875rem;
+                font-size: $text-sm;
                 font-weight: $semi-bold;
-                color: #414141;
+                color: $gray;
             }
             td{
-                font-size: 0.75rem;
+                font-size: $text-xs;
                 font-weight: $semi-bold;
                 span{
-                    color: #9f9f9f;
+                    color: $date;
                     span{
                         background: #F05050;
-                        color: #fff;
+                        color: $light;
                         border-radius: 3px;
-                        font-size: 0.5rem;
+                        font-size: $text-3xs;
                         padding: 0 5px;
                         margin-left: 10px;
                     }

@@ -39,7 +39,7 @@
             </div>
         </div>
 
-        <div class="row project-card-content" *ngIf="!cardTable">
+        <div class="row project-card-content" *ngIf="cardTable">
             <div class="col-md-4 mt-3">
                 <app-project-card [img]="'../../../assets/images/jogi.png'" [heading]="'Startupbuddy Website Work'" [date]="'End Date: 12.31.2022'" [status]="'Overdue'"></app-project-card>
             </div>
@@ -67,7 +67,7 @@
         </div>
     </div>
 
-        <div class="row project-table-content" *ngIf="cardTable">
+        <div class="row project-table-content" *ngIf="!cardTable">
             <app-project-table [data]="projectList"></app-project-table>
         </div>
 </div>

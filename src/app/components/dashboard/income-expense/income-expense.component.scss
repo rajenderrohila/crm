@@ -5,12 +5,12 @@
     height: 550px;
     overflow: auto;
     p{
-        font-size: 0.75rem;
-        color: #414141;
+        font-size: $text-xs;
+        color: $gray;
     }
     .search{
         input{
-            font-size: 0.75rem;
+            font-size: $text-xs;
             width: 540px;
             cursor:pointer;
         }

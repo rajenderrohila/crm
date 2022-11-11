@@ -7,28 +7,28 @@
     .report{
         margin-top: -5px;
         p{
-            font-size: 14px;
+            font-size: $text-sm;
             font-weight: $bold;
             margin-bottom: -8px;
         }
         span{
-            font-size: 10px;
+            font-size: $text-2xs;
             font-weight: $semi-bold;
             margin-top: 5px;
         }
         .income-report{
             span{
-                color: #0067B8;
+                color: $primary;
             }
         }
         .expense-report{
             span{
-                color: #F05050;
+                color: $red;
             }
         }
         .profit-report{
             span{
-                color: #4FA7A5;
+                color: $skyblue;
             }
         }
     }

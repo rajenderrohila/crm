@@ -1,3 +1,6 @@
+@import '../../../mixins';
+@import '../../../variables';
+
 .project{
     height: 620px;
     .page-header{
@@ -9,17 +12,17 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    background: #fff;
+                    background: $light;
                     border: none;
                     border-radius: 5px;
                     margin-right: 10px;
                     i{
-                        font-size: 1.25rem;
+                        font-size: $text-xl;
                     }
                 }
             }
             .page-header_search{
-                background: #fff;
+                background: $light;
                 border-radius: 5px ;
                 align-items: center;
                 input{
@@ -31,13 +34,13 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    background: rgb(42, 11, 195);
+                    background: $primary;
                     border: none;
                     border-radius: 5px;
                     margin-right: 5px;
                     i{
-                        color: #fff;
-                        font-size: 1.25rem;
+                        color: $light;
+                        font-size: $text-xl;
                     }
                 }
             }

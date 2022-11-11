@@ -23,7 +23,12 @@ export class PaidInvoiceComponent implements OnInit {
     {BillNo:"NTPL0177", amount:"705.60"},
     {BillNo:"NTPL0178", amount:"905.60"},
     {BillNo:"NTPL0179", amount:"705.60"},
+    {BillNo:"NTPL0180", amount:"705.60"},
+    {BillNo:"NTPL0180", amount:"705.60"},
+    {BillNo:"NTPL0180", amount:"705.60"},
+    {BillNo:"NTPL0180", amount:"705.60"},
     {BillNo:"NTPL0180", amount:"705.60"}
   ]
 
+  
 }

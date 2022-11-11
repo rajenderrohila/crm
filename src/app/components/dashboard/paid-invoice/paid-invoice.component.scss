@@ -4,31 +4,36 @@
 .recent-paid{
     border-radius: 5px;
     height: 550px;
-    overflow: auto;
+    position:relative;
     h4, span{
-        font-size: 0.875rem;
+        font-size: $text-sm;
         font-weight: $semi-bold;
     }
     span{
         color: $primary;
     }
-    .recent-paid-list{
-        height: 40px;
-        border-bottom: 2px solid #fafafa;
-        background: #ffff;
-        padding-right:10px;
+    .recent-paid-all{
+        height: 420px;
+        overflow: auto;
+        .recent-paid-list{
+            height: 40px;
+            border-bottom: 2px solid $border;
+            background: $light;
+            padding-right:10px;
+        }
     }
     .total-paid{
         background: $primary;
         border-radius: 0 0 5px 5px;
-        font-size: 0.875rem;
-        color: #fff;
+        font-size: $text-sm;
+        color: $light;
         height: 44px;
         padding-right:10px;
         span{
-            color: #fff;
-            margin-left: 15px;
-        }
+                color: $light;
+                margin-left: 15px;
+            }
+        
     }
     
 }

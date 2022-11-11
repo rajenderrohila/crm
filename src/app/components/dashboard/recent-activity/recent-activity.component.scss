@@ -15,20 +15,20 @@
     }
     .activity-content{
         margin-left: 10px;
-        border-bottom: 1px solid #eee;
+        border-bottom: 1px solid $light-gray;
         width: 100%;
         margin-bottom: 10px;
         h4{
-            font-size: 0.75rem;
+            font-size: $text-xs;
             margin-bottom: 2px;
         }
         p{
-            font-size: 0.625rem;
-            color: #9F9F9F;
+            font-size: $text-2xs;
+            color: $date;
             margin-bottom: 10px;
         }
         span{
-            font-size: 0.625rem;
+            font-size: $text-2xs;
             color: $primary;
             margin-left: 5px;
             font-weight: $semi-bold;
@@ -36,7 +36,7 @@
     }
     .activity-time{
         span{
-            color: #9F9F9F;
+            color:$date;
         }
     }
 }

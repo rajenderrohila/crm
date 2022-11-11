@@ -1,5 +1,6 @@
 @import '../../../../mixins';
 @import '../../../../variables';
+
 .calendar{
     border-radius: 5px;
     height: 550px;
@@ -14,24 +15,24 @@
                 &:not(:last-child){
                     width: 26px;
                     height: 26px;
-                    background: #E4F3FF;
+                    background: $btn-bg-calender;
                     border-radius: 5px;
                 }
                 &:last-child{
                     width: 64px;
                     height: 26px;
-                    background: #0067B8;
+                    background: $primary;
                     border-radius: 5px;
-                    color: #fff;
-                    font-size: 0.75rem;
+                    color: $light;
+                    font-size: $text-xs;
                 }
             }
         }
         .calendar-btn-grp{
             margin-bottom: 15px;
             button{
-                background: #0067B8;
-                font-size: 0.75rem;
+                background: $primary;
+                font-size: $text-xs;
                 height: 26px;
                 display: flex;
                 align-items: center;

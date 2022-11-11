@@ -9,51 +9,50 @@
         button{
             border: none;
             background: transparent;
-            font-size: 0.625rem;
+            font-size: $text-2xs;
             padding: 3px 10px;
-            color: #0067B8;
+            color: $primary;
             font-weight: $semi-bold;
             &:last-child{
-                background: #0067B8;
-                color: #fff;
+                background: $primary;
+                color: $light;
                 border-radius: 5px;
             }
         }
     }
     .to-do-list_table{
-        // padding: 0 15px;
         table{
             width: 100%;
             .table-header{
-                font-size: 0.75rem;
-                color: #414141;
+                font-size:$text-xs;
+                color: $gray;
                 height: 30px;
                 font-weight: $semi-bold;
-                background: #fff;
-                border-bottom: 3px solid #fafafa;
+                background: $light;
+                border-bottom: 3px solid $border;
             }
             .table-content{
-                font-size: 0.625rem;
-                background: #fff;
+                font-size: $text-2xs;
+                background: $light;
                 height: 45px;
-                border-bottom: 3px solid #fafafa;
+                border-bottom: 3px solid $border;
                 input{
                     width:20px;
                     height: 20px;
-                    border: 1px solid #E4E4E4;
+                    border: 1px solid $border;
                 }
                 span{
-                    font-size: 0.5rem;
-                    background: #FABB05;
-                    color: #fff;
+                    font-size: $text-3xs;
+                    background: $yellow;
+                    color: $light;
                     margin-right: 5px;
                     border-radius: 3px;
                     padding: 2px 5px;
                 }
                 select{
-                    font-size: 0.5rem;
-                    background: #34A853;
-                    color: #fff;
+                    font-size: $text-3xs;
+                    background: $success;
+                    color: $light;
                     border-radius: 3px;
                 }
                 button{
